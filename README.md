@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pkg-Installer
 
-## Getting Started
+> Install packages in one click directly inside VS Code.
 
-First, run the development server:
+**Pkg-Installer** is a VS Code extension that makes installing packages easier. Forget typing repetitive terminal commands or searching for the exact installation syntax across different package managers—install your favorite tools and libraries with a single click.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why It Exists
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Setting up a project often involves repetitive manual steps:
+- Switching between browser tabs and terminal to copy-paste and install package names.
+- Dealing with typos in package names.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Pkg-Installer** eliminates the friction by providing an intuitive sidebar panel inside VS Code where you select your preferred package manager and install commonly used libraries instantly into your active project.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## How to Use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Open your project folder in VS Code.
+2. Click the **Pkg-Installer** icon in the Activity Bar.
+3. Select your desired package manager (`npm`, `yarn`, `pnpm`, or `bun`).
+4. Click on the package you want to install.
+5. The terminal will automatically open and run the command in your workspace.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ⚡ **One-Click Installation**: Click any package to instantly trigger its installation in the integrated VS Code terminal.
+- 📦 **Multi-Package Manager Support**: Switch between **npm**, **yarn**, **pnpm**, and **bun** from a simple dropdown.
+- 🛠️ **Curated Package Collection**: Pre-configured support for popular packages.
+- 💾 **Persistent State**: Automatically remembers your preferred package manager across VS Code sessions.
+- 🎯 **Dedicated Sidebar View**: Accessible directly from the Activity Bar icon without cluttering your workspace.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Connect with Developer
+
+Have suggestions, feedback, or a package you'd like added?
+
+- **Issues & Feedback**: [Report an issue or feature request](https://github.com/shani-tiwari/pkg-installer-ide-extension/issues)
+- **Repository**: [GitHub Repository](https://github.com/shani-tiwari/pkg-installer-ide-extension)
+- **Developer**: [Shani Tiwari](https://github.com/shani-tiwari)
+
+[Twitter](https://twitter.com/shanidevelops) 
+[LinkedIn](https://www.linkedin.com/in/shani-tiwarii/) 
+[Github](https://github.com/shani-tiwari) 
+[Sponsor Me](https://github.com/sponsors/shani-tiwari)
